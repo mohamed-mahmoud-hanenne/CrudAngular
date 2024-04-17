@@ -1,33 +1,42 @@
-Angular CRUD Application
-Cette application est un exemple de système CRUD (Create, Read, Update, Delete) développé en utilisant Angular. Elle permet à l'utilisateur de visualiser, créer, modifier et supprimer des éléments à partir d'une interface utilisateur intuitive.
+# Angular CRUD Application
 
-Fonctionnalités
-Affichage de la liste des éléments existants.
-Création d'un nouvel élément.
-Modification des détails d'un élément existant.
-Suppression d'un élément.
+This application is an example of a CRUD (Create, Read, Update, Delete) system developed using Angular. It allows users to view, create, modify, and delete items from an intuitive user interface.
 
-Technologies Utilisées
-Angular: Framework JavaScript pour la construction d'applications côté client.
-HTML/CSS: Langages de balisage et de style pour la structure et la présentation de l'interface utilisateur.
-TypeScript: Langage de programmation typé utilisé pour écrire du code Angular.
-Angular CLI: Interface de ligne de commande pour Angular, utilisée pour générer des composants, des services, etc.
-Bootstrap: Framework CSS pour la conception de l'interface utilisateur.
-JSON Server: Outil permettant de créer un serveur RESTful à partir d'un fichier JSON pour faciliter le développement et les tests.
+## Features
 
-Guide d'installation
-Cloner ce dépôt sur votre machine locale.
-Assurez-vous d'avoir Node.js et npm installés.
-Exécutez npm install pour installer les dépendances du projet.
-Exécutez npm install -g json-server pour installer JSON Server globalement sur votre machine.
-Naviguez vers le dossier server et créez un fichier JSON pour simuler votre base de données.
-Exécutez json-server --watch db.json pour démarrer JSON Server et simuler une API REST.
-Retournez à la racine du projet et exécutez ng serve pour lancer l'application Angular. Naviguez vers http://localhost:4200/.
+- Displaying a list of existing items.
+- Creating a new item.
+- Modifying the details of an existing item.
+- Deleting an item.
 
-Structure du Projet
-src/app/components: Contient les composants Angular de l'application.
-src/app/services: Contient les services Angular utilisés pour la logique métier et les appels HTTP.
-src/app/models: Contient les modèles de données utilisés par l'application.
-src/app/shared: Contient les éléments partagés tels que des composants, des directives, des pipes, etc.
-src/assets: Contient les ressources statiques comme les images, les fichiers CSS, etc.
-server: Contient le fichier JSON simulé pour le serveur JSON.
+## Technologies Used
+
+- Angular: JavaScript framework for client-side application development.
+- HTML/CSS: Markup and styling languages for the structure and presentation of the user interface.
+- TypeScript: Typed programming language used to write Angular code.
+- Angular CLI: Command-line interface for Angular, used to generate components, services, etc.
+- Bootstrap: CSS framework for designing the user interface.
+- JSON Server: Tool for creating a RESTful server from a JSON file to facilitate development and testing.
+
+## Installation Guide
+
+1. Clone this repository to your local machine.
+2. Ensure you have Node.js and npm installed.
+3. Run `npm install` to install project dependencies.
+4. Run `npm install -g json-server` to install JSON Server globally on your machine.
+5. Navigate to the `server` directory and create a JSON file to simulate your database.
+6. Run `json-server --watch db.json` to start JSON Server and simulate a REST API.
+7. Return to the project root and run `ng serve` to launch the Angular application. Navigate to `http://localhost:4200/`.
+
+## Project Structure
+
+- `src/app/components`: Contains Angular components of the application.
+- `src/app/services`: Contains Angular services used for business logic and HTTP calls.
+- `src/app/models`: Contains data models used by the application.
+- `src/app/shared`: Contains shared elements such as components, directives, pipes, etc.
+- `src/assets`: Contains static resources such as images, CSS files, etc.
+- `server`: Contains the simulated JSON file for the JSON Server.
+
+## Demo
+![CRUD](https://github.com/mohamed-mahmoud-hanenne/CrudAngular/assets/96345931/fe4fc7c7-2131-4bf7-8453-d30b61a629ac)
+
