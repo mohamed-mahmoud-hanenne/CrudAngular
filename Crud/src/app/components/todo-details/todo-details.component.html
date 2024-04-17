@@ -1,0 +1,62 @@
+
+  <section class="vh-100">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card" id="list1" style="border-radius: .75rem; background-color: #eff1f2;">
+            <div class="card-body py-4 px-4 px-md-5" *ngIf="todo">
+  
+              <p class="h1 text-center mt-3 mb-4 pb-3 text-primary">
+                <label>Update Todo List App</label>
+               <!-- <label> Task Title : {{todo.name}}</label>
+               <label> Completed : {{todo.completed}}</label> -->
+              </p>
+  
+              <form id="contactForm" (ngSubmit)="updateTodo()" #form1="ngForm">
+              <div class="pb-2">
+               <label>Task Title</label> 
+                <div class="card">
+                  <div class="d-flex flex-row align-items-center">
+                    <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1"
+                      placeholder="Todo title" name="title1"
+                      required
+                      pattern="[A-Z-a-z]{3,}"
+                      [(ngModel)]="todo.name"
+                      #input1 = "ngModel"
+                      [ngClass]="{'is-invalid':(input1.touched || input1.dirty) && input1.invalid}"
+                      >
+                  </div>
+                </div>
+                <label>Completed</label>
+                <div class="form-check">
+                  <input class="form-check-input me-0" type="checkbox" value="" id="flexCheckChecked1" name="completed"
+                    aria-label="..." 
+                    [(ngModel)]="todo.completed"
+                     />
+                </div>
+              </div>
+  
+              <div>
+                <button type="submit"  class="btn btn-success"
+                [disabled]="form1.invalid"
+                >Update</button>
+              </div>
+             
+            
+              
+            </form>
+            <!-- <h1>{{input1?.errors  | json}}</h1> -->
+            </div>
+          
+          </div>
+        </div>
+      
+      </div>
+      
+    </div>
+   
+  
+  </section>
+
+
+
