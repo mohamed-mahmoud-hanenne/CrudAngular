@@ -38,5 +38,7 @@ This application is an example of a CRUD (Create, Read, Update, Delete) system d
 - `server`: Contains the simulated JSON file for the JSON Server.
 
 ## Demo
-![CRUD](https://github.com/mohamed-mahmoud-hanenne/CrudAngular/assets/96345931/fe4fc7c7-2131-4bf7-8453-d30b61a629ac)
+https://github.com/mohamed-mahmoud-hanenne/CrudAngular/assets/96345931/27dc7494-dd5f-45d6-a37b-73c625cd26bc
+
+
 
